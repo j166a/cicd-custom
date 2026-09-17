@@ -13,12 +13,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/j166a/cicd-custom/issues"
   },
   "homepage": "https://github.com/j166a/cicd-custom#readme",
   "dependencies": {
     "@actions/core": "^3.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup": "^4.63.3"
   }
 }
